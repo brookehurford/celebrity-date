@@ -29,10 +29,14 @@ $(document).ready(function() {
         var oneVariable = "Taylor Lautner";
       }
 
+
       $("#celebName").text(oneVariable);
       $("#printToScreen").show();
+      }
+      else {
+          alert('Please enter your age!');
+        }
+      })
 
-    event.preventDefault();
-}
-});
-});
+  event.preventDefault();
+    });
