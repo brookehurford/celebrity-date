@@ -1,4 +1,4 @@
-#printToScreen {
+#printToScreen, #rodS, #jt {
   display: none;
 }
 
@@ -18,6 +18,6 @@ body {
   margin-top: 20px;
 }
 
-#printToScreen {
-  text-align: center;
+img {
+  max-width: 500px
 }
