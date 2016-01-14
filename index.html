@@ -10,25 +10,30 @@
   <body>
     <div class="container">
 
-      <h1>Welcome to Celeb Dating Site</h1>
-      <p>Tell us a lil' bit about yourself.</p>
 
-      <form id="celebrityDate">
-        <div class="form-group">
-          <label  for="age">Age</label>
-          <input type="text" class="form=control" id="age">
+      <h1>Celebrity Tinder</h1>
+      <h3>Tell us a lil' bit about yourself.</h3>
+      <hr>
+
+      <div class="row">
+        <div class="col-md-5 col-md-offset-4">
+          <form id="celebrityDate">
+            <div class="form-group">
+              <label  for="age">Age</label>
+              <input type="text" class="form=control" id="age">
+            </div>
+
+            <div class="form-group">
+              <label for="type">What type of celebrity would you like to date?</label>
+              <select class="form-control" id="type">
+                <option value="musician">Musician</option>
+                <option value="tv">Tv Actor</option>
+                <option value="movie">Movie Star</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-default">Get your date!</button>
+          </div>
         </div>
-
-        <div class="form-group">
-          <label for="type">What type of celebrity would you like to date?</label>
-          <select class="form-control" id="type">
-            <option value="musician">Musician</option>
-            <option value="tv">Tv Actor</option>
-            <option value="movie">Movie Star</option>
-          </select>
-        </div>
-
-        <button type="submit" class="btn btn-default">Get your date!</button>
       <div id="printToScreen">
         <h2>Your date will be <span id="celebName"></span></h2>
       </div>

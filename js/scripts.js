@@ -36,7 +36,6 @@ $(document).ready(function() {
       else {
           alert('Please enter your age!');
         }
+      event.preventDefault();
       })
-
-  event.preventDefault();
     });

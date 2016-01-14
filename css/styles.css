@@ -1,3 +1,23 @@
 #printToScreen {
   display: none;
 }
+
+h1, h3 {
+  text-align: center;
+}
+
+label {
+  font-size: 16px;
+}
+
+body {
+  background-color: #ff6666;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+#printToScreen {
+  text-align: center;
+}
